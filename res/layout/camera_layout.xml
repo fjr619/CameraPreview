@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/apps2go_receipts2go_camera_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF000000" >
+
+    <RelativeLayout
+        android:id="@+id/apps2go_receipts2go_camera_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="true"
+        android:clipToPadding="true"
+        android:layout_centerInParent="true" >
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/apps2go_receipts2go_camera_button"
+        android:layout_width="64dip"
+        android:layout_height="64dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="8dip"
+        android:adjustViewBounds="true"
+        android:padding="16dip"
+        android:scaleType="centerInside"/>
+
+</RelativeLayout>
